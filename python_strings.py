@@ -54,6 +54,16 @@ print("Upper case:", upper_case)
 lower_case = my_string.lower()
 print("Lower case:", lower_case)
 
-# split method. Means splitting a string into a list of substrings based on a delimiter
+# split method. Means splitting a string into a list of substrings based on a delimiter. It produces a list out of strings.
 split_string = my_string.split(", ")
 print("Split string:", split_string)
+
+# formatting strings using f-strings and format() method
+# first using format() method
+age = 25
+formatted_string1 = "My name is {} and I am {} years old.".format(name, age)
+print(formatted_string1)
+
+# now using f-strings or formatted string literals
+formatted_string2 = f"My name is {name} and I am {age} years old."
+print(formatted_string2)
