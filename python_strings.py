@@ -31,3 +31,29 @@ print("Every second character:", every_second_character)
 # reverse a string using step
 reversed_string = my_string[::-1]
 print("Reversed string:", reversed_string)
+
+#Immutability of strings
+# Strings are immutable, meaning you cannot change them after they are created
+# For example, the following line would raise an error
+# my_string[0] = "h"
+
+#Concatenation in strings
+greeting = "Hello"
+name = "Alice"
+full_greeting = greeting + ", " + name + "!"
+print(full_greeting)
+
+# String multiplication. It means repeating the string multiple times
+repeat_hello = "Hello! " * 3
+print(repeat_hello)
+
+# python built-in string methods
+upper_case = my_string.upper()
+print("Upper case:", upper_case)
+
+lower_case = my_string.lower()
+print("Lower case:", lower_case)
+
+# split method. Means splitting a string into a list of substrings based on a delimiter
+split_string = my_string.split(", ")
+print("Split string:", split_string)
