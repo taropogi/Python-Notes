@@ -67,3 +67,4 @@ print(formatted_string1)
 # now using f-strings or formatted string literals. In javascript, it is called template literals
 formatted_string2 = f"My name is {name} and I am {age} years old."
 print(formatted_string2)
+
