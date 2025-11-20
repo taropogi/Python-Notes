@@ -1,5 +1,6 @@
 # Lists in Python are used to store multiple items in a single variable.
 # Lists are ordered, changeable (mutable), and allow duplicate values.
+# In javascript, they are similar to arrays. But in python, lists can hold different data types together.
 
 my_list = [10, 20, 30, 40, 50]
 print("Original list:", my_list)
