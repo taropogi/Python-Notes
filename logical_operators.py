@@ -10,4 +10,10 @@ a = True
 b = False
 result = a or b  # True
 
+# not operator
+a = True
+result = not a  # False
+
+
+
 
